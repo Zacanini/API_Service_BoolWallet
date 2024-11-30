@@ -1,4 +1,4 @@
-const { getAllCarteiraAtivos, getCarteiraAtivoById, createCarteiraAtivo, updateCarteiraAtivo, deleteCarteiraAtivo } = require('../../services/dbServices/CarteiraAtivoService');
+const { getAllCarteiraAtivos, getCarteiraAtivoById, createCarteiraAtivo, updateCarteiraAtivo, deleteCarteiraAtivo } = require('../../services/dbServices/carteiraAtivoService');
 
 // Listar todos os ativos da carteira
 async function listCarteiraAtivos(req, res) {
